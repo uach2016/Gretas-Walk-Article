@@ -1,0 +1,83 @@
+/*Padding and Spacing*/
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*Utilities classes*/
+.container a{
+    text-decoration: none;
+}
+
+.ws-quickview-trigger {
+    width: 42px;
+    line-height: 42px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 42px;
+    background-color: #ff8980;
+    color: #fff;
+}
+
+.ws-content-block {
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.browse-collection{
+    display: none;
+}
+
+/*Image background responsive*/
+.ws-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container .col-xs-12{
+    height: 300px;
+}
+
+.container .col-sm-6{
+    height: 574px;
+}
+
+.container .row:first-child > .ws-content-block{
+    height: 562px;
+}
+
+/*Font Stylish*/
+
+.container h1{
+    font-size: 50px;
+    color: #67bba2;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+.container p{
+    font-size: 13px;
+}
+
+/* Cta */
+.ws-cta{
+    text-align: center;
+    background-color: #ff877f;
+    height: 48px;
+    line-height: 48px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+
+.ws-cta a{
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+}
