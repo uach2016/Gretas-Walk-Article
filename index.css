@@ -14,13 +14,16 @@
     line-height: 42px;
     border-radius: 50%;
     text-align: center;
-    font-size: 42px;
+    font-size: 63px;
     background-color: #ff8980;
     color: #fff;
 }
-
+.ws-quickview-trigger:hover,
+.ws-cta a:hover{
+    color: #67bba2;
+}
 .ws-content-block {
-    margin-bottom: 14px;
+    margin-bottom: 10px;
     position: relative;
 }
 
@@ -56,14 +59,14 @@
 /*Font Stylish*/
 
 .container h1{
-    font-size: 50px;
+    font-size: 62px;
     color: #67bba2;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 600;
 }
 
 .container p{
-    font-size: 13px;
+    font-size: 15px;
 }
 
 /* Cta */
@@ -80,4 +83,229 @@
     color: #fff;
     display: inline-block;
     width: 100%;
+}
+
+/* quickview-trigger */
+
+.container .row:nth-child(1) .ws-quickview-trigger,
+.container .row:nth-child(2) .ws-quickview-trigger,
+.container .row:nth-child(3) .ws-quickview-trigger,
+.container .row:nth-child(4) .ws-quickview-trigger,
+.container .row:nth-child(5) .ws-quickview-trigger{
+    position: absolute;
+}
+.container .row:nth-child(1) .ws-quickview-trigger{
+    bottom: 118px;
+    left: 67px;
+}
+.container .row:nth-child(2) .col-sm-6:nth-child(1) .ws-quickview-trigger{
+    top: 92px;
+    right: 77px;
+}
+.container .row:nth-child(2) .col-sm-6:nth-child(2) .ws-quickview-trigger{
+    top: 316px;
+    right: 53px;
+}
+.container .row:nth-child(3) .ws-quickview-trigger:nth-child(1){
+    bottom: 19px;
+    left: 32px;
+}
+.container .row:nth-child(3) .ws-quickview-trigger:nth-child(2){
+    top: 90px;
+    right: 63px;
+}
+.container .row:nth-child(4) .col-sm-6:nth-child(1) .ws-quickview-trigger{
+    top: 97px;
+    right: 57px;
+}
+.container .row:nth-child(4) .col-sm-6:nth-child(2) .ws-quickview-trigger{
+    bottom: 80px;
+    right: 55px;
+}
+.container .row:nth-child(5) .ws-quickview-trigger{
+    top: 107px;
+    left: 132px;
+}
+
+/*Ipad Device*/
+@media (min-width: 768px) {
+    .container .col-xs-12 {
+        height: 511px;
+    }
+
+    .container .row:nth-child(1) .ws-quickview-trigger {
+        left: 235px;
+    }
+    .container .row:nth-child(3) .ws-quickview-trigger:nth-child(1) {
+        left: 129px;
+    }
+    .container .row:nth-child(3) .ws-quickview-trigger:nth-child(2) {
+        right: 159px;
+    }
+    .container .row:nth-child(5) .ws-quickview-trigger {
+        left: 301px;
+    }
+    .col-sm-6 .ws-image {
+        width: 99.5%;
+    }
+    .container p {
+        font-size: 14px;
+    }
+}
+
+/*bigger devices*/
+@media (min-width: 992px) {
+    .container .row:first-child > .ws-content-block {
+        height: 651px;
+    }
+    .container .col-sm-6 {
+        height: 690px;
+    }
+    .container .col-xs-12 {
+        height: 661px;
+    }
+    .container .row:nth-child(1) .ws-quickview-trigger {
+        left: 330px;
+    }
+    .container .row:nth-child(3) .ws-quickview-trigger:nth-child(1) {
+        bottom: 72px;
+    }
+    .container .row:nth-child(3) .ws-quickview-trigger:nth-child(2) {
+        top: 207px;
+        right: 219px;
+    }
+    .container .row:nth-child(5) .ws-quickview-trigger {
+        top: 157px;
+        left: 389px;
+    }
+}
+
+/*Desktop devices*/
+@media (min-width: 1199px) {
+    .container{
+        max-width: 1140px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /*Boxes Height & Width*/
+    .container .col-xs-12{
+        height: 845px;
+        width: 1140px;
+    }
+
+    .container .col-sm-6{
+        height: 814px;
+        width: 565px
+    }
+
+    .container .col-sm-6:nth-child(2){
+        left:10px;
+    }
+
+    .container .row:first-child > .ws-content-block{
+        height: 785px;
+    }
+    .col-sm-6 .ws-image {
+        width: 100%;
+    }
+
+    /*Quick view*/
+    .container .row:nth-child(1) .ws-quickview-trigger {
+        left: 402px;
+    }
+    .container .row:nth-child(2) .col-sm-6:nth-child(1) .ws-quickview-trigger {
+        top: 694px;
+        right: 437px;
+    }
+    .container .row:nth-child(2) .col-sm-6:nth-child(2) .ws-quickview-trigger {
+        top: 480px;
+        right: 109px;
+    }
+    .container .row:nth-child(3) .ws-quickview-trigger:nth-child(1) {
+        bottom: 72px;
+        display: none;
+    }
+    .container .row:nth-child(3) .ws-quickview-trigger:nth-child(2) {
+        top: 355px;
+        right: 243px;
+    }
+    .container .row:nth-child(4) .col-sm-6:nth-child(1) .ws-quickview-trigger {
+        top: 201px;
+        right: 70px;
+    }
+    .container .row:nth-child(4) .col-sm-6:nth-child(2) .ws-quickview-trigger {
+        bottom: 140px;
+        right: 106px;
+    }
+    .container .row:nth-child(5) .ws-quickview-trigger {
+        top: 375px;
+        left: 799px;
+    }
+
+    /*text and styling*/
+    .container h1{
+        font-size: 74px;
+        margin-bottom: 10px
+    }
+    .container p {
+        font-size: 15px;
+        margin-bottom: 24px;
+    }
+
+    /*cta*/
+    .container .row:first-child .ws-cta,
+    .container .row:last-child .ws-cta{
+        width: 213px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .container .row:last-child .ws-cta{
+        width: 768px;
+        height: 81px;
+        line-height: 81px;
+    }
+
+    .container .row:last-child .ws-cta span{
+        border: 1px solid #fff;
+        padding: 15px 35px 15px 35px;
+    }
+    .container .row:last-child .ws-cta span:hover{
+        border-color:#67bba2;
+    }
+
+    /*Browse the collection*/
+    .container .browse-collection {
+        display: block;
+        text-align: center;
+        max-width: 944px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .container hr{
+        border: 1px solid #6ba997;
+    }
+
+    .container h2{
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 34px;
+        color: #e56c6c;
+        text-transform: uppercase;
+    }
+
+    .container .col-xs-2:first-child {
+        margin-left: 0px;
+    }
+
+    .container .col-xs-2 {
+        width: 142px;
+        height: 208px;
+        margin-left: 20.4px;
+    }
+
+    .container .ws-content-block--gallery{
+        margin-bottom: 20.4px;
+    }
 }
